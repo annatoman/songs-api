@@ -1,6 +1,6 @@
 require "test_helper"
 
-class SongControllerTest < ActionDispatch::IntegrationTest
+class SongsControllerTest < ActionDispatch::IntegrationTest
   test "index" do
     get "/songs.json"
     assert_response 200
